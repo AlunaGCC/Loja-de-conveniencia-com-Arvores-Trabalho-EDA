@@ -1,11 +1,23 @@
 /* CONJUNTO DE OPERACOES */
 
     
+
+/*-------------*
+ * estrutura   *
+ *-------------*/
+typedef struct{
+    char info;
+    struct arv* esq;
+    struct arv* dir;
+
+
+}Arv;
+
 /*-------------------------------*
  *inicializando uma arvore vazia *
  *-------------------------------*/
 Arv* inicializa(void);
-    
+
     
 /*-----------------------*
  *criar arvore nao-vazia *
@@ -22,8 +34,7 @@ int vazia(Arv* a);
 /*-------------------*
  * imprimindo arvore *
  *-------------------*/
-void imprimir(Arv* a);    
-    
+void imprimindo(Arv* a);
     
 /*----------------*
  * liberar arvore *
