@@ -7,20 +7,21 @@ arvorebinaria.h  arvorebinaria.c)
 
 Foi utilizando os conceitos de TAD para criar uma estrutura do tipo Árvore Binária de Busca para armazenar produtos de uma loja de conveniência. 
 
-A ordenação da árvore oi realizada de acordo com número de matrícula dos produtos
+A ordenação da árvore foi realizada de acordo com número de matrícula dos produtos
 
 Estrutura do tipo produto:
 
 
 ```
 typedef struct{
-	int matricula;
+    int matricula;
     char nome[50];
     int qtd;
     int tipo;
     int qtdVendida;
     float preco;
 }Produto;
+
 ```
 
 
@@ -38,9 +39,7 @@ E depois:
 ./main
 ```
 
-###Funcionalidade
-
-Funcionalidades:
+### Funcionalidades:
 
 * Controle de acesso - login (usuário e senha)
 * Alteração de produtos
