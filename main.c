@@ -38,8 +38,8 @@ int main(){
         cadastro = loginValida(l);
 
         if(cadastro != 1){ //=1
-            system("clear");// linux
-           // system("cls"); //win
+            //system("clear");// linux
+            system("cls"); //win
             printf("\tTente novamente !!\n");
             printf("\tlogin invalido\n\n");
         }
